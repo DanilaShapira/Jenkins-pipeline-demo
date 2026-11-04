@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello from a Jenkinsfile stored in Git!'
+                 echo 'Hello again from a Jenkinsfile stored in Git!'
             }
         }
     }
